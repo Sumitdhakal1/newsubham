@@ -1,0 +1,255 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: #1b0d2a;
+}
+
+.container{
+    
+}
+.logo{
+  padding: 0.5rem;
+}
+.logo-name{
+    font-size: 25px;
+    margin-left: 1rem;
+}
+.navbar{
+display: flex;
+align-items: center;
+color: white;
+justify-content: space-between;
+}
+
+ul{
+ display: flex;
+ margin-right: 3rem;
+ align-items: center;
+ 
+}
+li{
+   list-style: none;
+   padding: 0 1rem;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    font-size: 19px;
+
+}
+a:hover{
+    color: gold;
+}
+
+.hire-me{
+    background: #7846de;
+    border: none;
+    padding: 0.5rem 0.5rem;
+    border-radius: 0.5rem;
+}
+
+.info-container{
+    background-color: #1b0d2a;
+}
+.info{
+    padding: 4rem 2rem;
+   
+    display: flex;
+    justify-content: space-around;
+}
+
+.left{
+  display: flex;
+  flex-direction: column;
+}
+.work-progress{
+    color: white;
+    margin-bottom: 1rem;
+}
+.subham{
+    color: silver;
+    font-size: 3rem;
+}
+.web{
+    font-size: 4.5rem;
+    color: #9d70f9;
+}
+.ux{
+    font-size: 4.5rem;
+    color: #9d70f9;
+}
+
+.para{
+    font-size: 1.5rem;
+    color: white;
+}
+
+.cv{
+    
+    border:1px solid #7846de;
+    font-size: 23px;
+    padding: 0.5rem 1rem;
+    color: #7846de;
+    border-radius: 1rem;
+    
+}
+
+.cv:hover{
+    background-color: #7846de;
+    color: white;
+}
+
+.link{
+    margin-top: 1rem;
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+.linkedin{
+    font-size: 2rem;
+        color: #7846de;
+        cursor: pointer;
+}
+.github{
+     font-size: 2rem;
+        color: #7846de;
+        cursor: pointer;
+}
+.facebook{
+    font-size: 2rem;
+        color: #7846de;
+        cursor: pointer;
+}
+.right{
+    
+}
+
+img{
+    width: 20rem;
+    border: 1px solid #7846de;
+    border-radius: 0.6rem;
+    transform: rotate(5deg);
+    transition: transform 0.3s ease;
+}
+
+img:hover{
+    transform: rotate(0deg);
+}
+
+
+
+.skill{
+    display: flex;
+    gap: 5rem;
+    margin-top: 4rem;
+}
+.node{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    
+}
+
+
+
+.node-percent{
+    color:#7846de;
+    font-size: 1.5rem;
+}
+.nodeName{
+    color: #7846de;
+      font-size: 1.7rem;
+}
+
+.FaNodeJs{
+    background: black;
+    color: green;
+    font-size: 6rem;
+    border-radius: 1rem;
+}
+
+.FaNodeJs:hover{
+  transform: scale(1.2) rotate(360deg); 
+  transition: transform 3s ease;
+}
+.RiJavascriptFill{
+    font-size: 6rem;
+     color: yellow;
+     background: black;
+      border-radius: 1rem;
+}
+.RiJavascriptFill:hover{
+  transform: scale(1.2) rotate(360deg); 
+  transition: transform 3s ease;
+}
+.SiMongodb{
+        font-size: 6rem;
+        background: black;
+        color: green;
+         border-radius: 1rem;
+}
+.SiMongodb:hover{
+  transform: scale(1.2) rotate(360deg); 
+  transition: transform 3s ease;
+}
+
+.react{
+     font-size: 6rem;
+     color: #02dcf4;
+      border-radius: 1rem;
+}
+.react:hover{
+  transform: scale(1.2) rotate(360deg); 
+  transition: transform 3s ease;
+}
+
+
+@media screen and (max-width: 700px) {
+
+
+    .navbar{
+     
+    }
+    .navigation{     
+        width: 100%;
+        position: absolute;
+        top: 1px;
+    }
+    ul{
+        background: #ae90eb;
+      display: flex;
+      flex-direction: column;
+
+    }
+    li{
+      background: #ae90eb;
+    }
+    a{
+        background: #ae90eb;
+        
+    }
+    
+    .info-container{
+        display: flex;
+        flex-direction: column;
+        margin-top: 5rem;
+    }
+    .info{
+         display: flex;
+        flex-direction: column;
+        align-items: center;
+         margin-top: 5rem;
+    }
+     .left{
+        order: 2;
+        align-items: center;
+     }
+     .right{
+         order: 1;
+     }
+     img{
+         transform: rotate(0deg);
+     }
+}     
